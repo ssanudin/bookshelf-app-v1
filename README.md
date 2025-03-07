@@ -19,14 +19,19 @@ The Bookshelf App is a web application that allows users to manage their book co
 - HTML
 - CSS
 - JavaScript
+- Local Storage API
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ssanudin/bookshelf-app-v1.git
    ```
-2. Open `index.html` in your web browser.
+2. Navigate to the project directory:
+   ```bash
+   cd bookshelf-app-v1
+   ```
+3. Open `index.html` in your web browser.
 
 ## Usage
 
