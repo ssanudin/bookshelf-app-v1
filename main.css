@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #ededed;
+    color: yellowgreen;
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+    background-color: yellowgreen;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+main {
+    padding-bottom: 5rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: .8rem;
+    box-shadow: 0 4px 8px rgba(154, 160, 185, .05), 0 8px 16px rgba(166, 173, 201, .2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-weight: 700;
+}
+
+input[type="text"], input[type="number"], textarea {
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5rem;
+    padding: .5rem 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    scale: 1.02;
+    box-shadow: 0 2px 4px rgba(154, 160, 185, .05), 0 8px 16px rgba(166, 173, 201, .2);
+}
+
+#bookFormSubmit {
+    background-color: yellowgreen;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#bookFormSubmit span {
+    font-weight: 700;
+}
+
+#searchBook {
+    margin-top: 1rem;
+}
+
+#searchBookTitle {
+    width: 50%;
+    margin: 0 .5rem;
+}
+
+#searchSubmit {
+    background-color: yellowgreen;
+    width: 25%;
+}
+
+.bookItem {
+    border: 1px solid #ededed;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    box-shadow: 0 2px 4px rgba(154, 160, 185, .05), 0 8px 16px rgba(166, 173, 201, .2);
+    color: #444;
+}
+
+.bookItem p {
+    margin: .25rem 0;
+}
+
+.bookItem .action {
+    margin-top: 1rem;
+}
+
+.completeBook, .incompleteBook, .deleteBook, .editBook {
+    margin: 0 .2rem;
+    font-size: .8rem;
+}
+
+.completeBook, .incompleteBook {
+    background-color: rgb(25, 135, 84);
+}
+
+.deleteBook {
+    background-color: rgb(220, 53, 69);
+}
+
+.editBook {
+    background-color: rgb(13, 110, 253);
+}
